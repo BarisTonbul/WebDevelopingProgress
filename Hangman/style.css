@@ -1,0 +1,10 @@
+h1,h2{
+    text-align: center;
+}
+.wordToGuess{
+    text-align: center;
+    font-size: xx-large;
+}
+.Card-Guess{
+    text-align: left;
+}
