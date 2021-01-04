@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Ketosis</title>
+</head>
+<body>
+    <div class="container p-3">
+        <h1 class="app-tittle" id="header">Stay in Ketosis!</h1>
+
+        <div class="card">
+            <div class="card-header">
+                New Food
+            </div>
+            <div class="card-body">
+                <form id="card-body">
+                    <div class="input-group mb-3">
+                        <!--FOOD SELECT -->
+                        <select name="Foods" id="Food">
+                            <option value="Beef">Beef</option>
+                            <option value="Chicken Breast">Chicken Breast</option>
+                            <option value="Egg">Egg</option>
+                            <option value="Olive oil">Olive oil</option>
+                            <option value="Butter">Butter</option>
+                            </select>
+                            <!--FOOD GRAM-->
+                        <input type="text" class="form=control" placeholder="How much you eat?" id="txtTaskName">
+                        <div class="input-group-append">
+                            <!--BUTTON-->
+							<button class="btn btn-primary" type="submit" id="btnAddNewTask">
+								<i class="fas fa-plus"></i>
+							</button>
+						</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <!--Delete all olan kisim HEADER -->
+            <div class="card-header">
+                Food List
+                <a id="btnDeleteAll" href="#" class="btn btn-outline-danger btn-sm delete-all float-right">
+                    Delete All
+                </a>
+            </div>
+
+            <ul id="task-list" class="list-group">
+                <!-- ORNEK LI ELEMANI
+                    <li class="list-group-item list-group-item-secondary">FOOD ITEM
+					<a href="#" class="delete-item float-right">
+						<i class="fas fa-times"></i>
+					</a>
+                </li>-->
+                
+            </ul>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                Your Dailiy Result
+            </div>
+            <div class="card-body2" id="Results">
+                <div id="total">Total Calorie Intake: </div>
+                <div id="fat">Your Total Fat--> </div>
+                <div id="protein">Your Total Protein--> </div>
+                <div id="carb">Your Total Carb--> </div>
+            </div>
+        </div>
+    
+       
+    
+
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
