@@ -1,3 +1,3 @@
 # WebDevelopingProgress
 
-## These folders are my progress on web delevoping journey.
+## These folders are my progress on my web delevoping journey.
